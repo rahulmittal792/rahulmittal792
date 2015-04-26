@@ -35,17 +35,23 @@ img {
 
 .social_icon {
 	position: relative;
-	font-size: 30px;
+	font-size: 12px;
+	width: 12px;
+	height: 12px;
 	color: #ffffff;
 	text-decoration: none;
 	display: inline-block;
+	margin: 10px;
+	-webkit-transition: font-size 0.25s ease, width 0.25s ease, height 0.25s ease;
+	-moz-transition: font-size 0.25s ease, width 0.25s ease, height 0.25s ease;
+	-ms-transition: font-size 0.25s ease, width 0.25s ease, height 0.25s ease;
+	transition: font-size 0.25s ease, width 0.25s ease, height 0.25s ease;
+	transition-timing-function: cubic-bezier(.39,1.21,.64,1.69);
+}
+.social_icons_animate > .social_icon {
+	font-size: 30px;
 	width: 30px;
 	height: 30px;
-	margin: 10px;
-	-webkit-transition: all 0.25s ease;
-	-moz-transition: all 0.25s ease;
-	-ms-transition: all 0.25s ease;
-	transition: all 0.25s ease;
 }
 .social_icon > span {
 	position: absolute;
