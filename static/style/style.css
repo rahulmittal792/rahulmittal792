@@ -42,6 +42,10 @@ img {
 	width: 30px;
 	height: 30px;
 	margin: 10px;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-ms-transition: all 0.25s ease;
+	transition: all 0.25s ease;
 }
 .social_icon > span {
 	position: absolute;
