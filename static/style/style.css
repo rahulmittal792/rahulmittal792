@@ -32,3 +32,39 @@ html, body {
 img {
 	max-width: 100%;
 }
+
+.social_icon {
+	position: relative;
+	font-size: 30px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+}
+.social_icon > span {
+	position: absolute;
+	top: 2px;
+	left: 3px;
+	bottom: 2px;
+	right: 2px;
+	z-index: -1;
+	border-radius: 50%;
+}
+.social_icon:hover > span,
+.social_icon:focus > span {
+	background: #ffffff;
+}
+.social_icon.facebook:hover,
+.social_icon.facebook:focus {
+	color: #527CA4;
+}
+.social_icon.twitter:hover,
+.social_icon.twitter:focus {
+	color: #65B2D5;
+}
+.social_icon.github:hover,
+.social_icon.github:focus {
+	color: #4183c4;
+}
