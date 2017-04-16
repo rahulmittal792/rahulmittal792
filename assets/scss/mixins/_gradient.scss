@@ -1,0 +1,13 @@
+@mixin gradient($color1, $color2, $opacity) {
+    background: linear-gradient(45deg, rgba($color1, $opacity), rgba($color2, $opacity));
+}
+
+.gradient1 {
+    @include gradient($shade1, $shade2, 0.7);
+}
+.gradient2 {
+    @include gradient($shade2, $shade3, 0.7);
+}
+.gradient3 {
+    @include gradient($shade1, $shade3, 0.7);
+}
