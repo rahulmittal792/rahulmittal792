@@ -1,6 +1,11 @@
+@import "normalize";
+.clearfix {
+    @include clearfix();
+}
 body {
     font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     min-height: 100vh;
+    background: #f9f9f9;
 }
 .viewport-wrap {
     height: 100vh;
@@ -46,7 +51,8 @@ body {
 .content-overlay {
     position: absolute;
     top: 0;
-    bottom: 0;
+    height: 100vh;
+    box-sizing: border-box;
     left: 0;
     right: 0;
     padding-top: 70px;
@@ -70,4 +76,29 @@ body {
     video {
         display: none;
     }
+}
+.banner-wrap {
+    background: #000000;
+}
+.banner-content {
+    padding-top: 70px;
+    height: 150px;
+    font-size: 0;
+    &:before {
+        content: '';
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.banner-head {
+    font-size: 45px;
+    color: #ffffff;
+    padding: 0 20px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }

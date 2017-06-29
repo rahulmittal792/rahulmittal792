@@ -1,0 +1,57 @@
+[
+    {
+        "skill": "HTML 5",
+        "image": "assets/images/blogs/html.png",
+        "description": ""
+    },
+    {
+        "skill": "CSS 3",
+        "image": "assets/images/blogs/css.png",
+        "description": ""
+    },
+    {
+        "skill": "LESS",
+        "image": "assets/images/blogs/less.png",
+        "description": ""
+    },
+    {
+        "skill": "SASS",
+        "image": "assets/images/blogs/sass.png",
+        "description": ""
+    },
+    {
+        "skill": "JavaScript",
+        "image": "assets/images/blogs/javascript.png",
+        "description": ""
+    },
+    {
+        "skill": "JQuery",
+        "image": "assets/images/blogs/jquery.png",
+        "description": ""
+    },
+    {
+        "skill": "Angular JS",
+        "image": "assets/images/blogs/angular.png",
+        "description": ""
+    },
+    {
+        "skill": "React JS",
+        "image": "assets/images/blogs/react.png",
+        "description": ""
+    },
+    {
+        "skill": "Ionic Framework",
+        "image": "assets/images/blogs/ionic.png",
+        "description": ""
+    },
+    {
+        "skill": "Grunt JS",
+        "image": "assets/images/blogs/grunt.png",
+        "description": ""
+    },
+    {
+        "skill": "Gulp",
+        "image": "assets/images/blogs/gulp.png",
+        "description": ""
+    }
+]
